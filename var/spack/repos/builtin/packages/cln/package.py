@@ -17,7 +17,7 @@ class Cln(AutotoolsPackage):
 
     homepage = "https://www.ginac.de/CLN/"
     url      = "https://www.ginac.de/CLN/cln-1.3.6.tar.bz2"
-    git      = "git://www.ginac.de/cln.git"
+    git      = "ssh://git@ginac.de/cln.git"
 
     version('master', branch='master')
     version('1.3.6', commit='d4ba1cc869be2c647c4ab48ac571b1fc9c2021a9')
